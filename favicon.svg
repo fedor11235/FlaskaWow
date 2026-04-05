@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <radialGradient id="badgeBg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(24 20) rotate(49.086) scale(38.8673)">
+      <stop stop-color="#47655B"/>
+      <stop offset="1" stop-color="#1A2E28"/>
+    </radialGradient>
+    <linearGradient id="badgeRing" x1="18" y1="14" x2="46" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7D594"/>
+      <stop offset="1" stop-color="#9E7A35"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="29" fill="url(#badgeBg)"/>
+  <circle cx="32" cy="32" r="28" stroke="url(#badgeRing)" stroke-width="2"/>
+  <path d="M18 19.5h8.378c5.606 0 8.661 2.422 8.661 6.88 0 3.083-1.723 5.261-4.72 6.148L35.793 45h-7.584l-4.69-10.99h-1.225V45H18V19.5Zm7.553 10.88c1.94 0 3.025-.98 3.025-2.73 0-1.722-1.084-2.645-3.025-2.645h-3.26v5.375h3.26Z" fill="#F5ECD5"/>
+  <path d="M40.623 19.5h3.398l2.12 4.173 2.149-4.173h3.71L48.348 26.2 52 34.384h-3.738l-2.29-4.654-2.262 4.654H40l3.624-8.184L40.623 19.5Z" fill="#F5ECD5"/>
+</svg>

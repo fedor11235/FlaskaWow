@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlaskaWoW</title>
+  <meta
+    name="description"
+    content="Атмосферный лендинг в стиле World of Warcraft: Mists of Pandaria с онлайном, инструкцией и ссылкой на клиент."
+  >
+  <link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg?v=2">
+  <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg?v=2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#hero" aria-label="На главную">
+        <span class="brand-mark">FW</span>
+        <span class="brand-text">
+          <strong>FlaskaWoW</strong>
+          <small>Mists of Pandaria</small>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Навигация по странице">
+        <a class="nav-link is-active" href="#hero">Главная</a>
+        <a class="nav-link" href="#guide">Инструкция</a>
+        <a class="nav-link" href="#download">Клиент</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <div class="hero-backdrop" aria-hidden="true">
+          <div class="mist-layer mist-layer--one"></div>
+          <div class="mist-layer mist-layer--two"></div>
+          <div class="flare flare--left"></div>
+          <div class="flare flare--right"></div>
+        </div>
+
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Туманы, монахи и путь к легенде</p>
+            <h1>Погрузись в Пандарию и начни путь уже сегодня</h1>
+            <p class="hero-text">
+              Атмосферный PvE и PvP-мир в духе Mists of Pandaria: зелёные долины,
+              нефритовые храмы, медитативная эстетика и вайб настоящего приключения.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button--primary" href="#guide">Как начать</a>
+              <a class="button button--ghost" href="#download">Скачать клиент</a>
+            </div>
+
+            <ul class="hero-points" aria-label="Преимущества">
+              <li>Живой онлайн и уютная атмосфера</li>
+              <li>Быстрый старт без лишней путаницы</li>
+            </ul>
+
+            <form class="signup-form" data-signup-form>
+              <div class="signup-form__heading">
+                <p class="eyebrow">Регистрация</p>
+                <h2>Оставь заявку</h2>
+                <p>
+                  Заполни форму, и мы получим письмо с твоими данными для
+                  подтверждения регистрации.
+                </p>
+              </div>
+
+              <div class="signup-grid">
+                <label class="field">
+                  <span>Email</span>
+                  <input
+                    type="email"
+                    name="email"
+                    autocomplete="email"
+                    placeholder="you@example.com"
+                    required
+                  >
+                </label>
+
+                <label class="field">
+                  <span>Пароль</span>
+                  <input
+                    type="password"
+                    name="password"
+                    autocomplete="new-password"
+                    placeholder="Придумай пароль"
+                    required
+                  >
+                </label>
+              </div>
+
+              <label class="field">
+                <span>Комментарий</span>
+                <textarea
+                  name="message"
+                  rows="4"
+                  placeholder="Если хочешь, можешь сразу написать пару слов о себе"
+                ></textarea>
+              </label>
+
+              <div class="signup-form__actions">
+                <button class="button button--primary button--submit" type="submit">
+                  Отправить заявку
+                </button>
+                <p class="form-status" data-form-status aria-live="polite"></p>
+              </div>
+            </form>
+          </div>
+
+          <aside class="status-card" aria-label="Онлайн сервера">
+            <div class="status-card__shine"></div>
+            <p class="status-label">Общий онлайн</p>
+            <div class="status-value-wrap">
+              <span class="status-value" data-counter="32">0</span>
+              <span class="status-unit">человек</span>
+            </div>
+            <p class="status-caption">
+              Игроки уже в игре: кто-то качается в Нефритовом лесу, кто-то ищет дуэли,
+              а кто-то только заходит в мир Пандарии.
+            </p>
+
+            <div class="status-pulse" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <div class="status-meta">
+              <div class="meta-item">
+                <span>Статус</span>
+                <strong>В строю</strong>
+              </div>
+              <div class="meta-item">
+                <span>Старт</span>
+                <strong>За 3 шага</strong>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="guide section" id="guide">
+        <div class="section-heading">
+          <p class="eyebrow">Инструкция</p>
+          <h2>Начать играть проще, чем кажется</h2>
+          <p>
+            Никакой сложной подготовки. Всё сводится к трём понятным шагам:
+            зарегистрировался, скачал клиент и вошёл в игру.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          <article class="step-card">
+            <span class="step-index">01</span>
+            <h3>Создай аккаунт</h3>
+            <p>
+              После регистрации заявка быстро уходит на проверку, и уже через
+              небольшое время мы отправляем одобрение на почту. Остаётся только
+              зайти через клиент и спокойно начать игру.
+            </p>
+          </article>
+
+          <article class="step-card">
+            <span class="step-index">02</span>
+            <h3>Скачай клиент</h3>
+            <p>
+              Скачай клиент, заходи в наш мир и начинай своё приключение без
+              лишних ожиданий.
+            </p>
+          </article>
+
+          <article class="step-card">
+            <span class="step-index">03</span>
+            <h3>Заходи и играй</h3>
+            <p>
+              Выбирай сторону, исследуй Пандарию, собирай друзей, закрывай подземелья
+              и просто наслаждайся красивым миром Пандарии.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="download section" id="download">
+        <div class="download-card">
+          <a class="button button--primary button--large" href="#" data-client-link>
+            Скачать клиент
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Связь, Telegram: <a href="https://t.me/fedor11235b" target="_blank" rel="noreferrer">fedor11235b</a></p>
+    </footer>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
